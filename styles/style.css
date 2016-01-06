@@ -1,0 +1,322 @@
+wrapper {
+    max-width: 1040px;
+    width: 90%;
+    border: 2px   #000
+}
+ ul {
+     list-style: 
+     none;padding: 0px;
+     margin: 0px;
+ }
+#drop-nav li {
+      display: block;
+      position: relative;
+      float: left;
+      border:1px solid #000
+  }
+
+  li ul {
+      display: none;
+  }
+
+  ul li a {
+      display: block;
+      background: #000;
+      padding: 5px 10px 5px 10px;
+      text-decoration: none;
+      white-space: nowrap;
+      color: #fff;
+  }
+
+  ul li a:hover {
+      background: #58ACFA;
+  }
+
+  li:hover ul {
+      display: block; 
+      position: absolute;
+  }
+
+  li:hover li {
+      float: none;
+  }
+
+  li:hover a {
+      background: #58ACFA;
+  }
+
+  li:hover li a:hover {
+      background: #000;
+  }
+
+  #drop-nav li ul li {
+      border-top: 0px;
+  }
+
+
+nav {
+  z-index: 9990;
+  width: 100%;
+  margin-left: 116px;
+  min-width: 320px;
+  max-width: 1440px;
+  height: 60px;
+  text-align: right;
+  font-size: 16px;
+  box-shadow: inset 0 0px rgba(255, 255, 255, 0.9);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation-duration: 0.375s;
+  animation-duration: 0.375s;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  transition-duration: 0.2s;
+  transition-delay: 0s; }
+
+  nav ul {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 47%;
+    padding-right: 40%;
+    white-space: nowrap;
+    box-shadow: 0 1px transparent;
+    transition-duration: 0.2s;
+    transition-delay: 0s;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000; 
+  }
+
+  nav li { 
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 8px;
+    margin-right: 9px;
+    text-align: center;
+    transition-duration: 0.2s;
+    transition-delay: 0s;
+    -webkit-animation-name: fadeindown;
+    animation-name: fadeindown; 
+  }
+
+    nav li:nth-of-type(2) {
+      text-transform: uppercase; 
+      -webkit-animation-duration: 0.55s;
+      animation-duration: 0.55s;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+    }
+
+    nav li:nth-of-type(3) {
+      text-transform: uppercase; 
+      -webkit-animation-duration: 0.65s;
+      animation-duration: 0.65s;
+      -webkit-animation-delay: 1.05s;
+      animation-delay: 1.05s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both; 
+    
+    }
+
+    nav li:nth-of-type(4) {
+      text-transform: uppercase; 
+      -webkit-animation-duration: 0.75s;
+      animation-duration: 0.75s;
+      -webkit-animation-delay: 1.1s;
+      animation-delay: 1.1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both; 
+    }
+
+    nav li:nth-of-type(5) {
+      text-transform: uppercase; 
+      -webkit-animation-duration: 0.85s;
+      animation-duration: 0.85s;
+      -webkit-animation-delay: 1.15s;
+      animation-delay: 1.15s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both; 
+    }
+
+    nav li:nth-of-type(6) {
+      text-transform: uppercase; 
+      -webkit-animation-duration: 0.9s;
+      animation-duration: 0.9s;
+      -webkit-animation-delay: 1.20s;
+      animation-delay: 1.20s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both; 
+    }
+
+    nav li:nth-of-type(7) {
+      text-transform: uppercase; 
+      -webkit-animation-duration: 0.9s;
+      animation-duration: 0.9s;
+      -webkit-animation-delay: 1.25s;
+      animation-delay: 1.25s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both; 
+    }
+
+#game-shelf {
+    text-align: center;
+    text-transform: uppercase; 
+    clear:both;
+}
+
+div.table-one {
+    border: 1px solid black; 
+    display: inline-block;
+    margin-right: 100px; 
+}
+
+section {
+    margin-left: 160px;
+}
+
+#floaty-one {
+    border: 1px solid black; 
+    display: inline-block;
+    align: center;
+    margin-right: 247px; 
+}
+
+#floaty-two {
+    border: 1px solid black; 
+    display: inline-block;
+    align: center;
+    margin-right: 248px; 
+}
+
+#floaty-three {
+    border: 1px solid black; 
+    display: inline-block;
+    align: center;
+    margin-right: 237px; 
+}
+
+#floaty-four {
+    border: 1px solid black; 
+    display: inline-block;
+    align: center;
+}
+
+.game-image {
+  height: 200px;
+  width: 200px;
+}
+
+html {
+	font-family: sans-serif;
+}
+
+#sb-site, .sb-site-container {
+	padding: 14px;
+}
+
+.sb-slidebar {
+	padding: 14px;
+	color: #fff;
+}
+
+html.sb-active #sb-site, .sb-toggle-left, .sb-toggle-right, .sb-open-left, .sb-open-right, .sb-close {
+	cursor: pointer;
+}
+
+/* Fixed position examples */
+#sb-site.top-padding {
+	padding-top: 50px;
+}
+
+#fixed-top {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	background-color: red;
+	z-index: 4;
+}
+
+#fixed-top span.sb-toggle-left {
+	float: left;
+	color: white;
+	padding: 10px;
+}
+
+
+.sb-slidebar{
+    color:white;
+}
+
+.gridder {
+    margin:0px;
+    padding:0px;
+    list-style-type:none
+}
+
+.gridder-list {
+    display:inline-block;
+    vertical-align:top;
+}
+
+.gridder-show {
+    display:block;
+    position:relative;
+    background:#EEE url("../assets/images/loading-spin.svg") no-repeat center
+}
+
+.gridder-show.loading {
+    background:#EEE url("../assets/images/loading-spin.svg") no-repeat center
+}
+
+.gridder-content {
+    display:none
+}
+
+.gridder-list {
+    width:15.83333%;
+}
+
+.gridder-list:nth-child(n) {
+    margin-bottom:1%;
+    margin-right:1%;
+}
+
+.gridder-list:nth-of-type(6n) {
+    margin-right:0;
+    margin-bottom:0
+}
+
+.gridder-show {
+    padding:20px;
+    background:#EEE;
+    margin-bottom:1%
+}
+
+.gridder-navigation .gridder-nav.disabled {
+    opacity:.5
+}
+
+.gridder-list {
+    cursor:pointer
+}
+
+.gridder-list:hover {
+    opacity:0.8
+}
+
+.hasSelectedItem .gridder-list {
+    opacity:.5
+}
+
+.hasSelectedItem .gridder-list.selectedItem {
+    opacity:1
+}
