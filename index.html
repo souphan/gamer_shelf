@@ -11,7 +11,14 @@
     <!-- <link rel="stylesheet" href="owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css">-->
     <link rel="stylesheet" href="/Slidebars-0.10.3/dist/slidebars.css">
     <link href="/gridder-master/dist/css/jquery.gridder.min.css" rel="stylesheet">
-    <link href="/gridder-master/demo/css/demo-advance.css" rel="stylesheet">
+    <link href="/styles/image-gridder.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>		
+    <script src="/gridder-master/dist/js/jquery.gridder.min.js"></script>
+    <!-- <script src="owl.carousel.2.0.0-beta.2.4/owl.carousel.js"></script>
+    <script src="owl.carousel/owl.carousel.min.js"></script>  -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="/gridder-master/dist/js/jquery.gridder.js"></script>
+    
 </head>
     
 <wrapper>
@@ -64,7 +71,9 @@
 <input type='button' id='link' value='Search' onClick='javascript:goTo()'>
 
     <ul>
-        <li class="sb-toggle-left">Toggle left Slidebar</li>
+        <li class="sb-toggle-left">
+            <img id="joystick"src="assets/controller.png"/>
+        </li>
     </ul> 
 <h1 id="game-shelf">
     Gamer Shelf
@@ -353,36 +362,6 @@
 				</div>
 			</div>
         </div>
-		
-     	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-        <script src="/gridder-master/dist/js/jquery.gridder.js"></script>
-        <script>
-            jQuery(document).ready(function ($) {
-
-                // Call Gridder
-                $(".gridder").gridderExpander({
-                    scrollOffset: 60,
-                    scrollTo: "panel", // "panel" or "listitem"
-                    animationSpeed: 400,
-                    animationEasing: "easeInOutExpo",
-                    onStart: function () {
-                        console.log("Gridder Inititialized");
-                    },
-                    onExpanded: function (object) {
-                        console.log("Gridder Expanded");
-                        $(".carousel").carousel();
-                    },
-                    onChanged: function (object) {
-                        console.log("Gridder Changed");
-                    },
-                    onClosed: function () {
-                        console.log("Gridder Closed");
-                    }
-                });
-            });
-        </script>
-
     
 		<div class="sb-slidebar sb-left">
 			<ul>
@@ -395,25 +374,8 @@
 				<li><a href="#" class="sb-close">Close Link</a></li>
 			</ul>
 		</div>
-		
-		
-				
-		<!-- jQuery -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>		
-		<!-- Slidebars -->
-<script src="/Slidebars-0.10.3/dist/slidebars.js"></script>
     
-    <script>
-        (function($) {
-            $(document).ready(function() {
-                $.slidebars();
-            });
-            }) (jQuery);
-    </script>
-    
-<script src="/gridder-master/dist/js/jquery.gridder.min.js"></script>
-<!-- <script src="owl.carousel.2.0.0-beta.2.4/owl.carousel.js"></script>
-<script src="owl.carousel/owl.carousel.min.js"></script>  -->
+<script src="/Slidebars-0.10.3/dist/slidebars.js"></script>    
 <script src="scripts/app.js"></script>    
 </body>
 </wrapper>
